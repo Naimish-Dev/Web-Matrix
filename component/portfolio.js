@@ -8,7 +8,7 @@ function Portfolio() {
   const portfolio = [
     {
       title: "Software Landing Page Design",
-      category: ["all", "web_design", "branding"],
+      category: ["all", "web_design"],
       imageSrc: "/images/projects/pic4.jpg",
       img: (
         <Image
@@ -22,7 +22,7 @@ function Portfolio() {
     },
     {
       title: "Software Landing Page Design",
-      category: ["all", "web_development", "branding"],
+      category: ["all", "seo"],
       imageSrc: "/images/projects/pic4.jpg",
       img: (
         <Image
@@ -36,7 +36,7 @@ function Portfolio() {
     },
     {
       title: "Software Landing Page Design",
-      category: ["all", "web_design", "seo"],
+      category: ["all", "web_design", "web_development"],
       imageSrc: "/images/projects/pic4.jpg",
       img: (
         <Image
@@ -50,7 +50,7 @@ function Portfolio() {
     },
     {
       title: "Software Landing Page Design",
-      category: ["all", "web_design", "branding"],
+      category: ["all", "web_design", "web_development"],
       imageSrc: "/images/projects/pic4.jpg",
       img: (
         <Image
@@ -78,7 +78,7 @@ function Portfolio() {
     },
     {
       title: "Software Landing Page Design",
-      category: ["all", "branding", "seo"],
+      category: ["all", "branding", "web_development"],
       imageSrc: "/images/projects/pic4.jpg",
       img: (
         <Image
@@ -134,14 +134,7 @@ function Portfolio() {
               Web Development
             </a>
           </li>
-          <li className={`btn ${filter === "branding" ? "active" : ""}`}>
-            <a
-              active={filter === "branding"}
-              onClick={() => setFilter("branding")}
-            >
-              Branding
-            </a>
-          </li>
+
           <li className={`btn ${filter === "seo" ? "active" : ""}`}>
             <a active={filter === "seo"} onClick={() => setFilter("seo")}>
               Seo

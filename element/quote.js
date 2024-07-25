@@ -126,7 +126,8 @@ function Quote() {
                         <option selected>Choose Service</option>
                         <option value="1">Web Development</option>
                         <option value="2">Web Design</option>
-                        <option value="3">Strategy & Research</option>
+                        <option value="3">Web Maintenance</option>
+                        <option value="3">SEO & Marketing</option>
                       </select>
                     </div>
                   </div>
