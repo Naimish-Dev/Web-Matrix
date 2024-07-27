@@ -3,6 +3,7 @@ import Header from "../layout/header";
 import Footer from "../layout/footer";
 import Counter from "../element/counter";
 import Link from "next/link";
+import Projects from "../element/projects";
 
 function AboutUs1() {
   return (
@@ -67,9 +68,9 @@ function AboutUs1() {
                   </h2>
                 </div>
                 <p>
-                  At WebMatrix, we are committed to helping you
-                  achieve your business objectives through innovative web design
-                  and development solutions. Our team combines creativity with
+                  At WebMatrix, we are committed to helping you achieve your
+                  business objectives through innovative web design and
+                  development solutions. Our team combines creativity with
                   technical expertise to create websites that not only look
                   great but also drive results. Whether you're looking to
                   enhance your online presence or launch a new digital product,
@@ -122,7 +123,7 @@ function AboutUs1() {
         <Counter />
 
         {/* <!-- About Us --> */}
-        <section className="content-inner-2">
+        {/* <section className="content-inner-2">
           <div className="container">
             <div className="row align-items-center">
               <div
@@ -204,8 +205,10 @@ function AboutUs1() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
+      <Projects />
+
       <Footer />
     </>
   );

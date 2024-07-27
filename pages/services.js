@@ -6,6 +6,7 @@ import Testimonial from "../element/testimonial";
 import Link from "next/link";
 import Quote from "../element/quote";
 import Features from "../element/our-features";
+import TechnologySlider from "../component/technologySlider";
 
 function Services1() {
   const [open, setOpen] = useState("p2");
@@ -42,6 +43,7 @@ function Services1() {
 
         {/* <!-- Services --> */}
         <AllServices />
+        <TechnologySlider />
 
         {/* <!-- Fetures --> */}
         <Features />

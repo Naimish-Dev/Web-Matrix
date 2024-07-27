@@ -12,6 +12,7 @@ import Testimonial from "../element/testimonial";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
 import Technology from "../element/technology";
+import TechnologySlider from "../component/technologySlider";
 function Home() {
   useEffect(() => {
     document.querySelector("body").setAttribute("color", "color_1");
@@ -26,8 +27,6 @@ function Home() {
         <AboutUs />
         <Counter />
         <Features />
-        <Projects />
-        {/* <Technology /> */}
         <Newsletter />
         <Testimonial />
         <Quote />

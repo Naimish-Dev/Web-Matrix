@@ -36,11 +36,7 @@ function Header() {
                 id="navbarNavDropdown"
               >
                 <div className="logo-header">
-                  <Link href="/">
-                    <a>
-                      <img src="images/logo.png" alt="" />
-                    </a>
-                  </Link>
+                  <Link href="/">WebMatrix</Link>
                 </div>
                 <ul className="nav navbar-nav navbar">
                   <li>
@@ -54,13 +50,13 @@ function Header() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/faq">
-                      <a>Faq</a>
+                    <Link href="/services">
+                      <a>Services</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services">
-                      <a>Services</a>
+                    <Link href="/faq">
+                      <a>Faq</a>
                     </Link>
                   </li>
 
